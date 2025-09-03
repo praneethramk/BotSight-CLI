@@ -1,0 +1,31 @@
+{
+  "name": "botsight-server",
+  "version": "1.0.0",
+  "description": "Backend server for BotSight",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "seed": "ts-node scripts/seed.ts",
+    "worker": "ts-node scripts/runWorker.ts",
+    "sync-agents": "ts-node scripts/runAgentSync.ts",
+    "migrate": "ts-node scripts/migrate.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.0.0",
+    "pg": "^8.0.0",
+    "playwright": "^1.32.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/pg": "^8.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0",
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "botsight-snippet",
+  "version": "1.0.0",
+  "description": "Client-side snippet for BotSight",
+  "main": "dist/botsight.iife.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}

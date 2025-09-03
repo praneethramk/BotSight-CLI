@@ -1,0 +1,4 @@
+{
+  "agentAPI": "https://your-site.com/api/agents",
+  "outputDir": "./botsight-output"
+}

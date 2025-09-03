@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website</title>
+    <!-- Your existing head content -->
+    
+    <!-- BotSight Snippet Integration -->
+    <!-- Place this script tag before the closing </head> tag -->
+    <script 
+        src="https://your-botsight-server.com/botsight.iife.js" 
+        data-site-id="your-site-id" 
+        async>
+    </script>
+</head>
+<body>
+    <!-- Your existing website content -->
+    
+    <h1>Welcome to Your Website</h1>
+    <p>This is your website content.</p>
+    
+    <!-- Example of structured data that BotSight will detect -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Your Website",
+      "description": "Description of your website"
+    }
+    </script>
+    
+    <meta property="og:title" content="Your Website">
+    <meta property="og:description" content="Description of your website">
+</body>
+</html>

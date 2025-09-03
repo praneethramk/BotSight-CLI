@@ -1,0 +1,31 @@
+{
+  "name": "botsight-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard for BotSight - analytics and simulation for AI agent interactions",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "botsight",
+    "dashboard",
+    "analytics",
+    "ai-agents",
+    "simulation"
+  ],
+  "author": "BotSight Team",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

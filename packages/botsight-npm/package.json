@@ -1,0 +1,31 @@
+{
+  "name": "botsight-snippet",
+  "version": "1.0.0",
+  "description": "Embeddable JavaScript snippet for BotSight - making websites agentic-browser friendly",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "jest",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "botsight",
+    "snippet",
+    "seo",
+    "ai-agents",
+    "structured-data"
+  ],
+  "author": "BotSight Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "tsup": "^7.0.0",
+    "typescript": "^5.0.0"
+  }
+}

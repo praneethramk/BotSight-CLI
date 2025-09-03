@@ -1,0 +1,36 @@
+{
+  "name": "botsight",
+  "version": "1.0.0",
+  "description": "A codebase that enables websites to be agentic-browser friendly",
+  "keywords": [
+    "botsight",
+    "web-crawling",
+    "structured-data",
+    "ai-agents",
+    "seo"
+  ],
+  "author": "BotSight Team",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "clean": "turbo clean"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@mendable/firecrawl-js": "^4.3.3"
+  },
+  "workspaces": [
+    "packages/*",
+    "server"
+  ]
+}

@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+.build
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# TurboRepo
+.turbo
+
+# BotSight outputs
+botsight-output
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Database
+*.sql
+
+# Screenshots
+screenshots/
+
+# Test results
+test-results/
+
+# Server specific
+server/.env
+server/screenshots/
+server/dist/
+
+# Snippet specific
+packages/snippet/dist/
